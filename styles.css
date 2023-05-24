@@ -158,7 +158,7 @@
     display: none;
 }
 .save{
-    color:rgb(82, 82, 82);
+    color:rgb(255, 255, 255);
     text-align: center;
     width: 88%;
     padding-top: 8px;
@@ -174,12 +174,21 @@
 
 }
 .save:hover{
-    background-color: #f7d52d;
+    background-color: #808080;
 
 }
 .records{
     height: 258px;
     margin-top: 24px;
     background-color: red;
+    display: flex;
 
+}
+.subjects{
+    margin-right: auto;
+    margin-left: 24px;
+}
+.total-time{
+    margin-left: auto;
+    margin-right: 24px;
 }
