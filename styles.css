@@ -2,6 +2,8 @@
     position: relative;
     width: 100%;
     font-size: 16px;
+    margin-top: -16px;
+
 }
 .app-container{
     position: relative;
@@ -29,7 +31,10 @@
     margin-left: auto;
     margin-right: 24px;
 }
-
+.about img{
+    width: 40px;
+    margin-top: -16px;
+}
 .subject{
     margin-top: 40px;
     width: 80%;
@@ -42,16 +47,22 @@
 }
 
 .subject-input {
-    font-size: 0.8em;
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 4px;
-    
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 12.9px;
+    color: #555;
+    transition: border-color 0.3s ease;
+  }
+
+.subject-input:focus {
+    border-color: #F4CE14;
+    outline: none;
   }
 
 .counter{
     margin-top: 24px;
-    width: 88%;
+    width: 90%;
     height: 384px;
     margin-left: auto;
     margin-right: auto;
@@ -62,6 +73,7 @@
     background-color: rgb(167, 167, 167);
     border: 3px solid rgba(77, 76, 76, 0.8);
     border-radius: 192px;
+    margin-left: -4px;
 }
 
 .digits{
@@ -152,7 +164,7 @@
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 1.2em;
-    background-color: #F4CE14;
+    background-color: #495E57;
     border: 1px solid rgb(107, 107, 107);
     border-radius: 8px;
     margin-left: auto;
@@ -163,5 +175,11 @@
 }
 .save:hover{
     background-color: #f7d52d;
+
+}
+.records{
+    height: 258px;
+    margin-top: 24px;
+    background-color: red;
 
 }
