@@ -33,7 +33,7 @@
 }
 .about img{
     width: 40px;
-    margin-top: -16px;
+    margin-top: -8px;
 }
 .subject{
     margin-top: 40px;
@@ -174,13 +174,12 @@
 
 }
 .save:hover{
-    background-color: #808080;
+    background-color: #31403b;
 
 }
 .records{
     height: 258px;
-    margin-top: 24px;
-    background-color: red;
+    margin-top: 32px;
     display: flex;
 
 }
@@ -188,7 +187,20 @@
     margin-right: auto;
     margin-left: 24px;
 }
+.subjects .title{
+    font-size: 19.2px;
+    margin-bottom: 12px;
+}
 .total-time{
     margin-left: auto;
     margin-right: 24px;
+}
+.total-time .title{
+    font-size: 19.2px;
+    margin-bottom: 12px;
+}
+
+.record-elm{
+    margin-bottom: 8px;
+    width: 100%;
 }
