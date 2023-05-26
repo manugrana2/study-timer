@@ -22,41 +22,38 @@
             </div>
             <div class="subject">
                 <label>Subject:</label>
-                <input type="text" placeholder="Name this Study Time" class="subject-input">
+                <input type="text" placeholder="Name this Study Time" class="subject-input" name="tag">
             </div>
             <div class="counter">
                 <div class="clock">
                     <div class="digits">
-                        <div class="hours digit">00:</div>
-                        <div class="minutes digit">00:</div>
-                        <div class="seconds digit">00</div>
+                        <div class="hours digit" id="hours">00:</div>
+                        <div class="minutes digit" id="minutes">00:</div>
+                        <div class="seconds digit" id="seconds">00</div>
 
                     </div>
                     <div class="controls">
                         <div class="start control">Start</div>
-                        <div class="continue control">Continue</div>
-                        <div class="pause control">Pause</div>
-                        <div class="stop control">Stop</div>
+                        <div class="continue control hide">Continue</div>
+                        <div class="restart control hide">Restart</div>
+                        <div class="stop control hide">Stop</div>
 
                     </div>
                 </div>
             </div>
-            <div class="save">Save</div>
+            <div class="save btn-dissabled">Save</div>
             <div class="records">
                 <div class="subjects">
                     <div class="title">Your Subjects</div>
-                    <div class="record-elm">dfdfd</div>
-                    <div class="record-elm">dfdfd</div>
 
                 </div>
                 <div class="total-time">
                     <div class="title">Time</div>
-                    <div class="record-elm">00:01:21</div>
-                    <div class="record-elm">00:11:43</div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="App.js"></script>
 </body>
 
 </html>

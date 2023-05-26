@@ -115,10 +115,11 @@
     padding-top: 8px;
     padding-bottom: 8px;
     font-weight: lighter;
-    border: 1px solid rgba(77, 76, 76, 0.8);
+    border: 2px solid #495E57;
+    color: #495E57;
     border-radius: 8px;
 }
-.pause{
+.restart{
     margin-left: auto;
     margin-bottom: 8px;
     margin-right: auto;
@@ -127,9 +128,9 @@
     padding-top: 8px;
     padding-bottom: 8px;
     font-weight: lighter;
-    border: 1px solid rgba(77, 76, 76, 0.8);
+    border: 1px solid #f45714;
+    color:  #f45714;
     border-radius: 8px;
-    display: none;
 }
 .stop{
     margin-left: auto;
@@ -140,9 +141,9 @@
     padding-top: 8px;
     padding-bottom: 8px;
     font-weight: lighter;
-    border: 1px solid rgba(77, 76, 76, 0.8);
+    border: 2px solid #F4CE14;
+    color: #F4CE14;
     border-radius: 8px;
-    display: none;
 }
 .continue{
     margin-left: auto;
@@ -172,6 +173,13 @@
     margin-top: 32px;
     cursor: pointer;
 
+}
+.btn-dissabled{
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    opacity: 0.6;
+    pointer-events: none;
 }
 .save:hover{
     background-color: #31403b;
@@ -203,4 +211,8 @@
 .record-elm{
     margin-bottom: 8px;
     width: 100%;
+}
+
+.hide{
+    display: none;
 }
